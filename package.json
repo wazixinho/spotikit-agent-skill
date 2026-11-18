@@ -1,0 +1,32 @@
+{
+  "name": "spotikit-agent-skill",
+  "version": "1.0.0",
+  "description": "Agentic Skill and CLI installer for building and migrating SpotiKit Spotify extensions, themes, and apps.",
+  "type": "module",
+  "bin": {
+    "spotikit-skill": "./bin/setup.mjs"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md"
+  ],
+  "scripts": {
+    "setup": "node ./bin/setup.mjs setup",
+    "plan": "node ./bin/setup.mjs setup --plan",
+    "verify": "node ./bin/setup.mjs verify"
+  },
+  "keywords": [
+    "spotikit",
+    "spicetify",
+    "agent-skills",
+    "claude-code",
+    "antigravity",
+    "opencode",
+    "cursor"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
